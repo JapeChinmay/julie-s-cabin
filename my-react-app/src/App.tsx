@@ -1,11 +1,12 @@
 import { Fragment } from "react";
+import Welcome from "./Components/Welcome/Welcome";
 
 import "./App.css";
 
 function App() {
   return (
     <Fragment>
-      <h2>Welcome to Julie's Cabin🐈</h2>
+      <Welcome />
     </Fragment>
   );
 }
